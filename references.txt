@@ -1,0 +1,52 @@
+SMTP handles your outgoing mail. Your email application connects to your mail server via SMTP and sends the messages. 
+The IMAP abbreviation stands for Internet Message Access Protocol and is one of the two most popular protocols for receiving email messages from the Internet
+https://accounts.google.com/DisplayUnlockCaptcha
+https://myaccount.google.com/lesssecureapps?pli=1     !! Do First
+https://support.google.com/mail/answer/185833?hl=en-GB  !! 2 Step Verification
+
+## VERY IMP (REPLY MAIL THREAD)
+To reply to the same thread mail 
+use "RE:" as prefix with the same subject of the email
+
+# Guide !!IMP
+https://pepipost.com/tutorials/send-an-email-via-gmail-smtp-server-using-php/
+
+#READ EMAIL
+https://www.urbanpro.com/php/read-your-gmail-emails-using-php-and-imap
+https://www.php.net/manual/en/function.imap-mailboxmsginfo.php !! IMP NOTATION
+https://www.php.net/manual/en/function.imap-headerinfo.php   !! HEADER INFO
+
+# SEND Mail !!IMP
+https://www.youtube.com/watch?v=U13smZvdArI&t=4s
+
+# Latest !!IMP
+https://www.youtube.com/watch?v=DKq1n-awLcw
+
+# PHP with Read Status !!IMP
+https://www.youtube.com/watch?v=rvm4zF7LwLE
+CODE : https://www.webslesson.info/2018/08/how-to-track-email-open-or-not-using-php.html
+
+## API !!!! IMAP
+https://developers.google.com/gmail/api/quickstart/php
+
+# PHPMailer
+https://github.com/PHPMailer/PHPMailer/tree/5.2-stable
+
+# INBOX EMAIL TO DB
+https://phppot.com/php/gmail-email-inbox-using-php-with-imap/
+
+# PAID Project just for referrence
+https://code.tutsplus.com/tutorials/building-advanced-email-features-with-imap-and-php--cms-22059
+
+# Send with Attachment
+https://www.youtube.com/watch?v=5zeajdSmcds
+
+# Send and Receive email
+https://www.youtube.com/watch?v=wgOxjB4MHqE
+
+# CODE to get GMAIL mail
+https://phppot.com/php/gmail-email-inbox-using-php-with-imap/
+
+
+
+
