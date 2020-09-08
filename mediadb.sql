@@ -48,10 +48,10 @@ CREATE TABLE `tbl_inaccuracy` (
 --
 
 INSERT INTO `tbl_inaccuracy` (`issue_id`, `issue_for`, `reporter_id`, `outlet_id`, `issue_title`, `description`, `date_created`, `date_updated`, `updated_by`, `status`, `reported_by`, `reported_user_email`, `report_to`) VALUES
-(1, 'Reporters', 1058323, 0, 'Re: Inaccuracy reported for reporter Monica Alba ID:1058323', 'You\'re welcome!\r\n\r\n\r\n\r\nThanks & Regards\r\n\r\nAKASH SAHU\r\n\r\nComputer Engineer | Mumbai, India\r\n\r\n \r\n \r\n \r\n\r\n------------------------------\r\n\r\n www.akash', '2020-08-25', '2020-08-26 02:27:47', NULL, 'Reported', 'Akash Sahu', 'akasharunsahu@gmail.com', 'Akash Sahu'),
-(2, 'Reporters', 1058323, 0, 'Inaccuracy reported for reporter Monica Alba ID:1058323', 'Her topics should be “Politics” not “Group”\r\n\r\nJob Title should be “Reporter\"\r\n\r\n\r\n\r\nThanks & Regards\r\n\r\nAKASH', '2020-08-25', '2020-08-26 02:27:48', NULL, 'Reported', 'Akash Sahu', 'akasharunsahu@gmail.com', 'No-Reply Critical Mention'),
-(3, 'Outlets', 0, 49250, 'Inaccuracy reported for outlet Good Day L.A.-KTTV-TV ID:49250', 'Hello, Steve Edwards no longer works here.\r\n\r\n\r\n\r\nThanks & Regards\r\n\r\nAKASH SAHU\r\n\r\nComputer Engineer | Mumbai, India\r\n\r\n \r\n \r\n \r\n\r\n------------------', '2020-08-25', '2020-08-26 02:27:49', NULL, 'Reported', 'Akash Sahu', 'akasharunsahu@gmail.com', 'No-Reply Critical Mention'),
-(4, 'Reporters', 602430, 0, 'Inaccuracy reported for reporter Aaron Ellis ID:602430', 'Thanks & Regards\r\n\r\nAKASH SAHU\r\n\r\nComputer Engineer | Mumbai, India\r\n\r\n \r\n \r\n \r\n\r\n------------------------------\r\n\r\n www.akashsahu.com', '2020-08-25', '2020-08-26 02:27:49', NULL, 'Reported', 'Akash Sahu', 'akasharunsahu@gmail.com', 'No-Reply Critical Mention');
+(1, 'Reporters', 1058323, 0, 'Re: Inaccuracy reported for reporter Monica Alba ID:1058323', 'You\'re welcome!\r\n\r\n\r\n\r\nThanks & Regards\r\n\r\nAKASH SAHU\r\n\r\nComputer Engineer | Mumbai, India\r\n\r\n \r\n \r\n \r\n\r\n------------------------------\r\n\r\n www.akash', '2020-08-25', '2020-08-26 02:27:47', NULL, 'Reported', 'Akash Sahu', 'Email_address@gmail.com', 'Akash Sahu'),
+(2, 'Reporters', 1058323, 0, 'Inaccuracy reported for reporter Monica Alba ID:1058323', 'Her topics should be “Politics” not “Group”\r\n\r\nJob Title should be “Reporter\"\r\n\r\n\r\n\r\nThanks & Regards\r\n\r\nAKASH', '2020-08-25', '2020-08-26 02:27:48', NULL, 'Reported', 'Akash Sahu', 'Email_address@gmail.com', 'No-Reply Critical Mention'),
+(3, 'Outlets', 0, 49250, 'Inaccuracy reported for outlet Good Day L.A.-KTTV-TV ID:49250', 'Hello, Steve Edwards no longer works here.\r\n\r\n\r\n\r\nThanks & Regards\r\n\r\nAKASH SAHU\r\n\r\nComputer Engineer | Mumbai, India\r\n\r\n \r\n \r\n \r\n\r\n------------------', '2020-08-25', '2020-08-26 02:27:49', NULL, 'Reported', 'Akash Sahu', 'Email_address@gmail.com', 'No-Reply Critical Mention'),
+(4, 'Reporters', 602430, 0, 'Inaccuracy reported for reporter Aaron Ellis ID:602430', 'Thanks & Regards\r\n\r\nAKASH SAHU\r\n\r\nComputer Engineer | Mumbai, India\r\n\r\n \r\n \r\n \r\n\r\n------------------------------\r\n\r\n www.akashsahu.com', '2020-08-25', '2020-08-26 02:27:49', NULL, 'Reported', 'Akash Sahu', 'Email_address@gmail.com', 'No-Reply Critical Mention');
 
 -- --------------------------------------------------------
 
@@ -73,11 +73,11 @@ CREATE TABLE `tbl_inaccuracy_reply` (
 --
 
 INSERT INTO `tbl_inaccuracy_reply` (`reply_id`, `issue_id`, `issue_title`, `description`, `reported_user_email`, `date_created`) VALUES
-(0, 3, 'Re: Inaccuracy reported for outlet Good Day L.A.-KTTV-TV ID:49250', 'dsadsadad', 'akasharunsahu@gmail.com', '2020-08-26 12:57:25'),
-(0, 2, 'Re: Inaccuracy reported for reporter Monica Alba ID:1058323', 'test 2', 'akasharunsahu@gmail.com', '2020-08-26 13:58:35'),
-(0, 1, 'Re: Re: Inaccuracy reported for reporter Monica Alba ID:1058323', 'dasdsadada', 'akasharunsahu@gmail.com', '2020-08-26 13:58:47'),
-(0, 3, 'Re: Inaccuracy reported for outlet Good Day L.A.-KTTV-TV ID:49250', 'dasddadadas', 'akasharunsahu@gmail.com', '2020-08-26 13:59:43'),
-(0, 2, 'Re: Inaccuracy reported for reporter Monica Alba ID:1058323', 'dsdadadasd', 'akasharunsahu@gmail.com', '2020-08-26 15:06:37');
+(0, 3, 'Re: Inaccuracy reported for outlet Good Day L.A.-KTTV-TV ID:49250', 'dsadsadad', 'Email_address@gmail.com', '2020-08-26 12:57:25'),
+(0, 2, 'Re: Inaccuracy reported for reporter Monica Alba ID:1058323', 'test 2', 'Email_address@gmail.com', '2020-08-26 13:58:35'),
+(0, 1, 'Re: Re: Inaccuracy reported for reporter Monica Alba ID:1058323', 'dasdsadada', 'Email_address@gmail.com', '2020-08-26 13:58:47'),
+(0, 3, 'Re: Inaccuracy reported for outlet Good Day L.A.-KTTV-TV ID:49250', 'dasddadadas', 'Email_address@gmail.com', '2020-08-26 13:59:43'),
+(0, 2, 'Re: Inaccuracy reported for reporter Monica Alba ID:1058323', 'dsdadadasd', 'Email_address@gmail.com', '2020-08-26 15:06:37');
 
 --
 -- Indexes for dumped tables

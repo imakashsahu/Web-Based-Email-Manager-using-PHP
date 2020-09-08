@@ -43,8 +43,8 @@ CREATE TABLE `email_data` (
 
 INSERT INTO `email_data` (`email_id`, `email_subject`, `email_body`, `email_address`, `email_track_code`, `email_status`, `email_open_datetime`) VALUES
 (1, 'Test first mail', 'First ever mail to test the php and db feature entered manually', 'test@test.com', '', 'no', '2020-08-20 11:18:23'),
-(7, 'test mail 2', 'dasddadasdadsda', 'akasharunsahu@gmail.com', '', 'no', '0000-00-00 00:00:00'),
-(6, 'test mail', 'dadadadadada', 'akasharunsahu@gmail.com', '', 'no', '0000-00-00 00:00:00');
+(7, 'test mail 2', 'dasddadasdadsda', 'Email_address@gmail.com', '', 'no', '0000-00-00 00:00:00'),
+(6, 'test mail', 'dadadadadada', 'Email_address@gmail.com', '', 'no', '0000-00-00 00:00:00');
 
 --
 -- Indexes for dumped tables
