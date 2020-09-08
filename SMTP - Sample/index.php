@@ -29,7 +29,7 @@ if(isset($_POST["send"]))
 	$mail->Password = 'your-password'; // Add your password Here
 	$mail->SMTPSecure = 'tls';
 	$mail->SetFrom('no-reply@akash.com');
-	$mail->FromName = 'No-Reply Critical Mention';
+	$mail->FromName = 'No-Reply xyz company';
 	$mail->AddAddress($_POST["receiver_email"]);
 	$mail->IsHTML(true);
 	$mail->Subject = $_POST['email_subject'];
@@ -106,7 +106,7 @@ if(isset($_POST["send"]))
     <table style="font-family: Arial,Helvetica,sans-serif; line-height: 0px; font-size: 1px; padding: 0px; border-spacing: 0px; margin: 0px; border-collapse: collapse;" border="0" cellspacing="0" cellpadding="0">
     <tbody>
     <tr>
-    <td style="border-collapse: collapse; font-family: Calibri, Helvetica, sans-serif; font-size: 25.0px; font-style: normal; line-height: 32px; font-weight: normal; color: #282828;"><span style="font-family: Calibri, Helvetica, sans-serif; font-size: 30.0px; font-style: normal; line-height: 32px; font-weight: normal; color: #282828; display: inline;">Critical Mention</span></td>
+    <td style="border-collapse: collapse; font-family: Calibri, Helvetica, sans-serif; font-size: 25.0px; font-style: normal; line-height: 32px; font-weight: normal; color: #282828;"><span style="font-family: Calibri, Helvetica, sans-serif; font-size: 30.0px; font-style: normal; line-height: 32px; font-weight: normal; color: #282828; display: inline;">xyz company</span></td>
     </tr>
     <tr>
     <td style="border-collapse: collapse; font-family: Calibri, Helvetica, sans-serif; font-size: 21.0px; font-style: normal; line-height: 23px; font-weight: bold; color: #282828;"><span style="font-family: Calibri, Helvetica, sans-serif; font-size: 15.0px; font-style: normal; line-height: 23px; font-weight: bold; color: #282828; display: inline;">(Title)</span></td>
